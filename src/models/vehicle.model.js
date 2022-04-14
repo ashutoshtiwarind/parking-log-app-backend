@@ -1,12 +1,6 @@
 const mongoose = require("mongoose");
 
-class VehicleTypes {
-    constructor () {
-    SUV = "SUV",
-    HATCHBACK = "HATCHBACK",
-    TWOWHEELER = "TWO_WHEELER"
-    }
-}
+
 
 const vehicleSchema = new Schema({
   vehicle_type: {
